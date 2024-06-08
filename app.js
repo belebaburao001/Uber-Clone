@@ -53,3 +53,22 @@ function section2Btn2Part2() {
       );
 }
 section2Btn2Part2()
+
+// Footer
+function footerPara() {
+    function footerPara() {
+        const footerP = document.querySelector(".footer-first-p");
+        const footerUnderline = document.querySelector(".underline");
+
+        footerP.addEventListener("mouseover", (event) => {
+            footerUnderline.style.opacity = 1;
+        });
+
+        footerP.addEventListener("mouseout", (event) => {
+            footerUnderline.style.opacity = 0;
+        });
+    }
+
+    document.addEventListener("DOMContentLoaded", footerPara);
+}
+footerPara()

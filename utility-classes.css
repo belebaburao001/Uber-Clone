@@ -65,3 +65,12 @@
     background: #000000;
     transition: all 0.6s ease-in-out;
 }
+#footer-link{
+    width: 150px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+}
+#footer-link:hover{
+    color: #5a5a5a;
+}

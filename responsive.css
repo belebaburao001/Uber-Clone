@@ -47,8 +47,13 @@
     }
     #nav-login{
         color: #fff;
-        font-size: 20px;
-        font-weight: 400;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #nav-btn{
+        color: #000;
+        font-size: 14px;
+        font-weight: 500;
     }
     .logo{
         font-size: 20px;
@@ -170,5 +175,23 @@
 @media (max-width: 425px) {
     .scaner #hide-h2{
        font-size: 20px;
+    }
+}
+
+/* Footer */
+@media (max-width: 1136px) {
+    .footer-second{
+        gap: 55px;
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px) {
+    .footer-second-list-first{
+        gap: 55px;
+        flex-direction: column;
+    }
+    .footer-second-list-second{
+        gap: 55px;
+        flex-direction: column;
     }
 }
