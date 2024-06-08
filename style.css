@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* NavBar */
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background: #000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 64px;
+    height: 64px;
+    width: 100%;
+    margin: auto;
+    max-width: calc(1408px);
+    background: #000;
+}
+.left-nav{
+    display: flex;
+}
+.logo{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43px;
+}
+.left-nav .left-nav-links{
+    display: flex;
+    margin: 0 24px;
+}
+#nav-btn{
+    color: #000000;
+    background: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 30px;
+    padding: 10px 14px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+#nav-btn:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+/* Hero Section */
+.hero-section{
+    width: 100%;
+    height: auto;
+    background: #000;
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h1 h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.input-section p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+}
+.inputs{
+    margin-top: 15px;
+}
+.first{
+    display: flex;
+    align-items: center;
+}
+.first .circle-svg{
+    background: #fff;
+    width: 40px;
+    height: 52px;
+    padding-left: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    display: flex;
+    align-items: center;
+}
+.first input{
+    width: 300px;
+    height: 52px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.first .send-icon{
+    background: #fff;
+    width: 40px;
+    height: 52px;
+    padding-right: 10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.second{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.second .rectongle{
+    background: #fff;
+    width: 40px;
+    height: 52px;
+    padding-left: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    display: flex;
+    align-items: center;
+}
+.second input{
+    width: 340px;
+    height: 52px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.hero-btn{
+    margin-top: 37px;
+}
+.hero-img{
+    width: 598px;
+    height: 697px;
+}
+.hero-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+/* Section Two */
+.section-two{
+    background: #fff;
+}
+.section-two-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-two-img{
+    width: 558px;
+    height: 558px;
+}
+.section-two-img img{
+    width: 100%;
+    height: 100%;
+}
+.section-two-text-content h1{
+    width: 440px;
+    font-size: 52px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 32px;
+}
+.section-two-text-content p{
+    width: 440px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    margin-bottom: 32px;
+}
+.section-2-btns{
+    display: flex;
+    align-items: center;
+}
+.section-two-text-content .section-2-btn1{
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 7px;
+    margin-right: 24px;
+    padding: 14px 25px;
+    color: #fff;
+    background: #000;
+    transition: all 0.3s ease;
+}
+.section-two-text-content .section-2-btn1:hover{
+    background: #333333;
+}
+#section-two-content2{
+    flex-direction: row-reverse;
+}
+#line-1{
+    width: 178px;
+}
+#h1{
+    width: 447px;
+}
+
+/* Section Three */
+.section-three{
+    background: #F6F6F6;
+}
+.section-three-content #h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.scaners{
+    display: flex;
+    gap: 30px;
+}
+.scaner{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 769px;
+    cursor: pointer;
+}
+.scaner #app-svg{
+    display: none;
+}
+.scaner #hide-h2{
+    display: none;
+}
+.scaner img{
+    width: 150px;
+    height: 150px;
+    padding: 15px 15px;
+}
+.scaner .first-scaner-text-content{
+    padding: 24px 24px 24px 24px;
+}
+.scaner .first-scaner-text-content h2{
+    margin-bottom: 5px;
+}
+.scaner i{
+    margin-left: 25px;
+    margin-right: 15px;
+    font-size: 25px;
+}
