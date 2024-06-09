@@ -138,6 +138,9 @@
 
 /* Section Three */
 @media (max-width: 1136px) {
+    .section-three-main{
+        padding: 40px 24px;
+    }
     .scaners{
         flex-direction: column;
     }
@@ -180,18 +183,34 @@
 
 /* Footer */
 @media (max-width: 1136px) {
+    .footer-main{
+        padding: 40px 24px;
+    }
     .footer-second{
         gap: 55px;
         flex-direction: column;
     }
+    .footer-third{
+        gap: 35px;
+        flex-direction: column;
+    }
+    .footer-fifth{
+        gap: 55px;
+        flex-direction: column;
+    }
+    #footer-fifth-link{
+        margin-bottom: 16px;
+    }
 }
 @media (max-width: 600px) {
     .footer-second-list-first{
-        gap: 55px;
         flex-direction: column;
     }
     .footer-second-list-second{
         gap: 55px;
         flex-direction: column;
+    }
+    .footer-third .social-icon{
+        gap: 40px;
     }
 }
